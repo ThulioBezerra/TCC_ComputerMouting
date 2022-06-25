@@ -12,7 +12,8 @@ How does it work? Its main features are its filter system and how it handles the
 Wow, so it's perfect? Unfortunately, its completion is still at the mercy of the author's collaborations or initiatives. It is an unfinished but functional project.
 What's new then? All code is reusable and written in object orientation (PDO).
 
-ALERT: This archives has only the front-end and PHP parts, to see the full-stack project, acess https://monteagora.000webhostapp.com/.
+ALERT: This archives has only the front-end and PHP parts, to see the full-stack project, acess https://monteagora.000webhostapp.com/
+ALERTA: Esses arquivos consistem em apenas as partes front-end e PHP, para ver o projeto full-stack, acesse: https://monteagora.000webhostapp.com/
 
 
 This project is licensed in the terms of license Apache 2.0.
