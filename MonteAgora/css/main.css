@@ -1,0 +1,754 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*Index*/
+:root{
+    --b: #FFFFFF;
+    --p: #000000;
+    --c: #8c8c8c;
+    --ca: #4d4d4d;
+    --cb:#333333;
+}
+html{
+    font-size: 62.5%;
+}
+html,body{
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-rendering: antialiased;
+}
+body{
+    background-color: var(--cb);
+    font-size: 1.6rem;
+}
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+background: white;
+}
+body::-webkit-scrollbar-thumb {
+ background-color: black;
+ border-radius: 20px;
+ border: 3px solid var(--cb);
+}
+.inicio{
+        background-color: var(--p);
+        height: 50px;
+}
+main, header, footer{
+    min-width: 300px;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+.conteiner{
+    background: url(../img/index-img-1366.png) fixed;
+    height: 99vh;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+.nomesite{
+    position: relative;
+    font-family: Pacifico;
+    color: var(--b);
+    font-size: 2.3rem;
+    line-height: 3.2rem;
+    display: inline-block;
+    top: 27%;
+    cursor: pointer;
+}
+
+#centro{
+    position: relative;
+    max-width: 250px;
+    width: 20%;
+    min-width: 100px;
+    margin: 0 auto;
+    top: 39%;
+    color: var(--b);
+}
+.logotipo{
+    float: left;
+    position: relative;
+    top:11%;
+}
+.logotipo img{
+    height: 4.5rem;
+}
+.header{
+    width: 100%;
+    position: relative;
+    height: 40px;
+}
+.button-primary{
+font: normal 500 1.2rem Montsserat;
+line-height: 1.6rem;
+background-color: rgba(0, 0, 0, 0);
+border: 2px solid var(--b);
+padding: 1.4rem 0 ;
+}
+.button-primary:hover{
+    transition: 0.5s;
+    color: var(--p);
+    background-color: var(--b);
+    cursor: pointer;
+}
+
+.button-primary > a{
+    color: var(--b);
+    padding: 1.4rem;
+    text-decoration: none;
+}
+
+.button-primary > a:hover{
+    color: var(--p);
+}
+
+/*nav*/
+#topico{
+    text-align: center;
+    font: normal bold 2rem Roboto;
+    line-height: 1.6rem;
+    margin-top: 0;
+    padding-top: 5rem;
+}
+#main-index{
+    width: 100%;
+    height: 85vh;
+    background-image: linear-gradient(to bottom, white 80%, #d8d8d8);
+}
+/*modificado*/
+.navegacao{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    width: 85%;
+    top: 0.7rem;
+    text-align: center;
+}
+.navegacao > a{
+    font: normal 500 1.6rem Roboto;
+    text-decoration: none;
+    color: var(--b);
+}
+.navegacao > a:hover{
+    text-decoration: none;
+    transition: 0.5s;
+    color: #888686;
+}
+/*modificado*/
+.margin-r{
+    margin-right: 3rem;
+}
+.login-button{
+    position: relative;
+    top: 40%;
+    right: 3rem;
+    float: right;
+    font: normal 500 1.6rem Roboto;
+    line-height: 2rem;
+    cursor: pointer;
+   color: white;
+}
+.login-button > a {
+    position: relative;
+    text-decoration: none;
+    color: var(--b);
+}
+.login-button:hover, .login-button >a:hover{
+    text-decoration: none;
+    transition: 0.5s;
+    color: #888686;
+}
+#botoes-nav{
+    display:inline-block;
+    width: 75%;
+}
+/*Main*/
+
+.htw-img{
+    left: 5rem;
+    position: relative;
+    text-align: justify;
+   width: 26%;
+    height: 25rem;
+    display: inline-block;
+    padding-right: 3rem;
+
+}
+
+.htw-img img{
+    border-radius: 150px;
+    box-shadow: 3px 3px 10px #0000007c
+}
+#htw-nav{
+    margin: 4rem auto;
+    position: relative;
+    width: 100%;
+max-width: 768px;
+    height: 50vh;
+}
+#central{
+max-width: 1366px;
+min-width: 300px;
+width: 100%;
+height: 80vh;
+min-height: 300px;
+height: 100%;
+display: block;
+color: var(--p);
+background-image:linear-gradient(#d8d8d8 60%, rgb(177, 177, 177))
+}
+.htw-text{
+    margin: 0 auto 0 auto;
+    padding: 1rem;
+    width: 70%;
+}
+.htw-text > p {
+    margin-bottom: 0;
+    display: inline;
+}
+.htw-text >header{
+    text-align: center;
+    font: normal normal 1.5rem Montserrat;
+}
+.htw-button{
+    position: relative;
+    display: block;
+    padding: 1.0rem 0;
+    background-color: var(--p);
+    border: none;
+    margin: 2rem auto 2rem auto;
+    font: normal 500 1.5rem Montsserat;
+    line-height: 2rem;
+}
+.htw-button > a{
+    padding: 1.0rem 4.0rem;
+    color: var(--b);
+    text-decoration: none;
+}
+#right{
+    float: right;
+}
+#esconder{
+    background-color: var(--b);
+    width: 125px;
+    height: 100px;
+    display: none;
+    position: relative;
+    top: 20px;
+}
+
+
+/* Telas de login/create */
+.logon {
+    width: 400px;
+    height: 400px;
+    background-color: var(--b);
+    position: relative;
+    margin: 100px auto;
+    border-radius: 40px 0 40px 0;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.425);
+    color: var(--p);
+}
+.logcre {
+    height: 100%;
+    background-image: url(../img/login-1366.jpg);
+    margin: 0;
+    padding: 0;
+}
+.nomeinicio {
+    position: relative;
+    text-align: center;
+    font: normal normal 3.2rem Pacifico;
+    line-height: 6rem;
+    color: var(--p);
+    margin: 0px
+}
+.botao {
+    transition: 1s;
+    position: relative;
+    display: block;
+    background-color: var(--p);
+    color: var(--b);
+    border-radius: 7px;
+    margin: 10px auto;
+    padding: 0.6rem 5.0rem;
+}
+.botao:hover{
+    transition: 1s;
+    border: solid 2px;
+    cursor: pointer;
+}
+.loginbord > div > input[type="password"],.loginbord > div > input[type="text"]{
+    padding: 0.5rem;
+    border-radius: 0px;
+    border: ridge 1px var(--p);
+}
+input:focus {
+    background-color: rgba(255, 255, 255, 0.459);
+}
+.loginbord {
+    padding: 0;
+    position: relative;
+    display: inline;
+    border: none;
+}
+.loginbord > div>label{
+    color: var(--p);
+}
+.loginbord>div {
+    display: block;
+    margin-bottom: 15px;
+}
+.loginbord > p> a{
+    color: var(--p);
+}
+label {
+    display: block;
+}
+.formlog{
+    position: relative;
+    margin: 0 auto ;
+    width: 65%;
+}
+
+.error{
+    color: red;
+    margin: 0;
+}
+
+#sucess{
+    background-color: rgb(1, 182, 1);
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+#alert{
+    background-color: rgba(231, 231, 15, 0.712);
+    margin: 0;
+    text-align: center;
+}
+/*Rodapé*/
+footer{
+    background-color: #000000;
+    color: var(--b);
+}
+footer > p{
+    margin: 0;
+    text-align: center;
+    padding: 2.0rem;
+}
+/*Help*/
+#help{
+    background-color: var(--cb);
+}
+#helptext{
+    width: 70%;
+    background-color: var(--b);
+    margin: 0 auto;
+    padding: 0.7rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.418);
+}
+#helptext h1{
+    font: normal bolder 1.8rem Roboto;
+    line-height: 2rem;
+    text-align: center;
+}
+#helptext > article > p{
+text-align: justify;
+}
+
+/*Videos*/
+#center-w{
+    text-align: center;
+    color: white;
+    font: normal bold 1.5rem Roboto;
+}
+#videos{
+width: auto;
+}
+/*Montagem*/
+#edit{
+    background-color: transparent !important;
+    border-color: #000000;
+    color: var(--p);
+}
+#edit:hover{
+    transition: 0.5s;
+    background-color: rgb(230, 230, 230) !important;
+}
+th, td{
+    text-align: center !important;
+}
+
+#projetname{
+    position: relative;
+    top: 12rem;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid var(--p);
+    padding: 3rem 0 4rem 0;
+    border-radius: 50px;
+}
+#projetname> label{
+    text-align: center;
+    font: normal normal 2rem Roboto;
+    color: var(--p);
+    margin-bottom: 1.5rem;
+}
+#projetname> input{
+    margin: 0 auto;
+    padding: 0.7rem;
+    border: 1px solid var(--p);
+    width: 67%;
+    max-width:  331px;
+    min-width: 150px;
+    display: block;
+}
+#form-main{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.lindobotao{
+    display: block;
+    position: relative;
+    left: 45%;
+    margin-top: 20px;
+    padding: 0.8rem 2.8rem;
+    border: none;
+    border-radius: 10px;
+    border: solid 1px var(--ca);
+    color: var(--b);
+    font: normal normal 2.4rem SourceSansPro ;
+}
+.lindobotao:hover{
+    background-image: linear-gradient(to right,var(--p), var(--cb));
+}
+.btn-primary{
+background-color: var(--p) !important;
+border: none;
+padding: 0.7rem;
+}
+.btn-secundary{
+    background-color: rgba(7, 7, 7, 0.5);
+    color: var(--b);
+    border: none;
+    padding:0.7rem;
+}
+#pesquisar{
+    width: 80%;
+    margin: 10px auto;
+
+}
+.searcharea{
+    max-width: 250px;
+    width: 100%;
+    margin:  auto;
+}
+.searcharea > button{
+    border: none;
+    position: relative;
+    background-color: black;
+    color: white;
+    width: 57px;
+    height: 25px;
+    cursor: pointer;
+}
+.searcharea > button:hover{
+    transition: 0.4s;
+    box-shadow: 1px 1px 5px var(--c);
+}
+#pesquisar > button >img{
+    position: relative;
+    top: 2px;
+    border-radius: 10px;
+}
+
+input[id="search"]{
+border:1px solid var(--ca);
+}
+
+input[id="search"]:focus{
+    background-color: var(--c);
+}
+
+.searcharea{
+    margin: 0 auto;
+}
+
+.paginacao{
+margin: 2rem auto;
+max-width: 50px;
+width: 100%;
+}
+
+.montagem{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.button-list{
+    background-color: var(--p);
+    color: var(--b);
+    font: normal normal 1.7rem Source Sans Pro;
+    line-height: 2.3rem;
+    padding: 0.6rem 2.0rem;
+    border-radius: 20px;
+    border: none;
+}
+.button-list:hover{
+    transition: 1s
+    ;
+   color: var(--c)
+}
+.m-list{
+    display: inline-block;
+    width: 25%;
+    height: 350px;
+    min-width: 200px;
+    position: relative;
+    margin-right: 1rem ;
+    left: 10%;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 1px 1px 0.6rem var(--p);
+}
+#info-p{
+    position: relative;
+    color: black;
+    display: inline-block;
+
+}
+#finish{
+    display: block;
+    max-width: 150px;
+    padding: 0.4rem 1rem;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    background-color:  #d9534f ;
+    border-color: #d43f3a ;
+    border: 1px solid #d43f3a;
+    border-radius: 20px;
+}
+#finish:hover{
+    background-color: #c9302c;
+	border-color: #ac2925;
+}
+.finish{
+    display: block;
+    max-width: 150px;
+    padding: 0.4rem 1rem;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    background-color: #5cb85c;
+    border: 2px solid #4cae4c;
+    border-radius: 20px;
+}
+.finish:hover{
+    background-color: #449d44;
+	border-color: #398439
+}
+/*Cadastro/Editar*/
+#form-cad{
+    position: relative;
+    top: 40%;
+    max-width: 940px;
+    min-width: 100px;
+    width: 100%;
+    margin: 0 auto;
+}
+.navcad{
+    padding: 1.0rem;
+    color: var(--p);
+    font: normal bold 1.6rem Roboto;
+    line-height: 1.5rem;
+    text-decoration: none;
+}
+.cadscreen{
+    border-radius: 20px;
+}
+.cadscreen > input, textarea, select{
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+.cadscreen>label{
+    display: inline-block;
+    display: inline-block;
+	max-width: 100%;
+	margin-bottom: 5px;
+	font-weight: 700
+}
+.secoescad{
+    position: relative;
+    top: 10px;
+    display: inline-block;
+    width: 30%;
+}
+.secoescad> input, label{
+    margin-bottom: 5px;
+}
+#saida{
+    border-radius:6rem;
+    display: inline;
+    float: right;
+    color: black;
+    text-decoration: none;
+}
+#descricao{
+    width: 100%;
+}
+/*Listagem */
+table{
+    color: black;
+    background-color: white;
+}
+tbody{
+    color: var(--p);
+    background-color: white;
+}
+.list-a-cad{
+    background-color: rgb(31, 139, 21);
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.2rem 0.5rem ;
+    font: normal normal 1.5rem Roboto;
+    text-decoration: none;
+}
+
+/*Tela do usuário */
+#bg{
+    background-color: var(--ca);
+    width: 99vw;
+    height: 100vh;
+}
+#perfil{
+    max-width: 1100px;
+    max-height: 580px;
+    border-radius:0.8rem 0.8rem 0.8rem 0.8rem;
+    width: 100%;
+    height: 100%;
+    background-color: var(--b);
+    margin: 0 auto;
+    box-shadow: var(--p) 0.1rem 0.1rem 1.5rem;
+}
+#usuario-info{
+    display: inline-block;
+    max-width: 200px;
+    min-width: 100px;
+    width: 100%;
+    border-radius:0.8rem 0 0 0.8rem;
+    max-height: 580px;
+    height: 100%;
+    background-color: var(--cb);
+}
+#usuario-info >img{
+   padding: 0.7rem ;
+    display: block;
+    margin: 0 auto;
+}
+#center{
+    text-align: center;
+    font: normal bolder 2rem Roboto;
+}
+.button-user{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: var(--b)
+}
+.button-user:hover{
+    transition: 1s;
+    background-color: var(--ca);
+    text-decoration: none;
+    color: var(--b);
+}
+#color-red{
+color: red;
+}
+.getout:hover{
+    transition: 1s;
+    background-color: var(--ca);
+    color: red;
+    text-decoration: none;
+}
+#info_usuario{
+    top: 45%;
+    width: 81%;
+    position: relative;
+    display: inline-block;
+    height: 50%;
+    vertical-align: top;
+    text-align: center;
+}
+.info_usuarioedit{
+    top: 30%;
+    width: 81%;
+    position: relative;
+    display: inline-block;
+    height: 50%;
+    vertical-align: top;
+    text-align: center;
+}
+.edit-user{
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+}
+#projetos{
+    display: inline-block;
+    width: 80%;
+    height: 100%;
+    vertical-align: top;
+    margin: 0 auto;
+}
+#list{
+    margin: 0 auto;
+    width: 80%;
+}
+.list_projetos{
+    border: 1px solid black;
+    width: 31%;
+    position: relative;
+    display: inline-block;
+    height: 40%;
+}
+/*modificado*/
+@media (max-width:768px) {
+    html{
+        font-size: 50%;
+    }
+    .htw-img{
+        padding: 0;
+    }
+    .navegacao{
+        width: 70%;
+        top:25%;
+    }
+    #centro{
+        width:35%;
+        max-width: 197px;
+    }
+}
+@media (max-width: 1080px){
+    .navegacao{
+        width: 70%;
+        top:25%;
+    }
+    #centro{
+        width:39%;
+    }
+}
